@@ -1,0 +1,125 @@
+* developer_guide
+    * [developer_guide_test.md](developer_guide\developer_guide_test.md)
+    * [index.md](developer_guide\index.md)
+* [index.md](index.md)
+* user_guide
+    * [index.md](user_guide\index.md)
+    * [install.md](user_guide\install.md)
+* API Reference
+    * data
+        * [collate](API Reference\compas_torch_fofin\data\collate.md)
+        * [dataobjs](API Reference\compas_torch_fofin\data\dataobjs.md)
+        * [dataset](API Reference\compas_torch_fofin\data\dataset.md)
+        * [domain](API Reference\compas_torch_fofin\data\domain.md)
+        * [loader](API Reference\compas_torch_fofin\data\loader.md)
+        * [transforms](API Reference\compas_torch_fofin\data\transforms.md)
+        * [transformsG](API Reference\compas_torch_fofin\data\transformsG.md)
+        * [utils](API Reference\compas_torch_fofin\data\utils.md)
+    * datastructures
+        * compas
+            * [graph](API Reference\compas_torch_fofin\datastructures\compas\graph.md)
+            * [mesh](API Reference\compas_torch_fofin\datastructures\compas\mesh.md)
+        * CWG
+            * [\_CWG](API Reference\compas_torch_fofin\datastructures\CWG\_CWG.md)
+            * [\_decorators](API Reference\compas_torch_fofin\datastructures\CWG\_decorators.md)
+            * \_dgl
+                * [batch](API Reference\compas_torch_fofin\datastructures\CWG\_dgl\batch.md)
+                * [clone](API Reference\compas_torch_fofin\datastructures\CWG\_dgl\clone.md)
+                * [legacy](API Reference\compas_torch_fofin\datastructures\CWG\_dgl\legacy.md)
+                * [state](API Reference\compas_torch_fofin\datastructures\CWG\_dgl\state.md)
+            * [CWGforcenet](API Reference\compas_torch_fofin\datastructures\CWG\CWGforcenet.md)
+            * [CWGformforce](API Reference\compas_torch_fofin\datastructures\CWG\CWGformforce.md)
+            * [CWGhalfedge](API Reference\compas_torch_fofin\datastructures\CWG\CWGhalfedge.md)
+            * [CWGraph](API Reference\compas_torch_fofin\datastructures\CWG\CWGraph.md)
+            * [CWGspacegraph](API Reference\compas_torch_fofin\datastructures\CWG\CWGspacegraph.md)
+            * featops
+                * [normalization](API Reference\compas_torch_fofin\datastructures\CWG\featops\normalization.md)
+                * [transforms](API Reference\compas_torch_fofin\datastructures\CWG\featops\transforms.md)
+            * featscomp
+                * [centrality](API Reference\compas_torch_fofin\datastructures\CWG\featscomp\centrality.md)
+                * [force](API Reference\compas_torch_fofin\datastructures\CWG\featscomp\force.md)
+                * [geom](API Reference\compas_torch_fofin\datastructures\CWG\featscomp\geom.md)
+                * [gmp](API Reference\compas_torch_fofin\datastructures\CWG\featscomp\gmp.md)
+                * [identity](API Reference\compas_torch_fofin\datastructures\CWG\featscomp\identity.md)
+            * formfind
+                * [fdm](API Reference\compas_torch_fofin\datastructures\CWG\formfind\fdm.md)
+                * [gs](API Reference\compas_torch_fofin\datastructures\CWG\formfind\gs.md)
+                * [query](API Reference\compas_torch_fofin\datastructures\CWG\formfind\query.md)
+                * [tna](API Reference\compas_torch_fofin\datastructures\CWG\formfind\tna.md)
+            * interop
+                * [compas_](API Reference\compas_torch_fofin\datastructures\CWG\interop\compas_.md)
+                * [fromto](API Reference\compas_torch_fofin\datastructures\CWG\interop\fromto.md)
+            * managers
+                * [\_feats](API Reference\compas_torch_fofin\datastructures\CWG\managers\_feats.md)
+                * [\_featsreg](API Reference\compas_torch_fofin\datastructures\CWG\managers\_featsreg.md)
+                * [featsaccess](API Reference\compas_torch_fofin\datastructures\CWG\managers\featsaccess.md)
+                * [featsbatch](API Reference\compas_torch_fofin\datastructures\CWG\managers\featsbatch.md)
+                * [featsgroup](API Reference\compas_torch_fofin\datastructures\CWG\managers\featsgroup.md)
+                * [featsman](API Reference\compas_torch_fofin\datastructures\CWG\managers\featsman.md)
+                * [linksman](API Reference\compas_torch_fofin\datastructures\CWG\managers\linksman.md)
+            * misc
+                * [optim_scipy](API Reference\compas_torch_fofin\datastructures\CWG\misc\optim_scipy.md)
+                * [summary](API Reference\compas_torch_fofin\datastructures\CWG\misc\summary.md)
+                * [visualize](API Reference\compas_torch_fofin\datastructures\CWG\misc\visualize.md)
+            * topo
+                * [halfedge](API Reference\compas_torch_fofin\datastructures\CWG\topo\halfedge.md)
+                * [neighborhood](API Reference\compas_torch_fofin\datastructures\CWG\topo\neighborhood.md)
+                * [remeshing](API Reference\compas_torch_fofin\datastructures\CWG\topo\remeshing.md)
+        * [data](API Reference\compas_torch_fofin\datastructures\data.md)
+        * graph
+            * [graph](API Reference\compas_torch_fofin\datastructures\graph\graph.md)
+    * [dglfuncs](API Reference\compas_torch_fofin\dglfuncs.md)
+    * formfind
+        * [cem](API Reference\compas_torch_fofin\formfind\cem.md)
+        * dr
+            * [dr](API Reference\compas_torch_fofin\formfind\dr\dr.md)
+        * [fdm](API Reference\compas_torch_fofin\formfind\fdm.md)
+        * [residual](API Reference\compas_torch_fofin\formfind\residual.md)
+        * smooth
+            * [smoothing](API Reference\compas_torch_fofin\formfind\smooth\smoothing.md)
+        * tna
+            * [horizontal](API Reference\compas_torch_fofin\formfind\tna\horizontal.md)
+            * [parallelize](API Reference\compas_torch_fofin\formfind\tna\parallelize.md)
+            * [vertical](API Reference\compas_torch_fofin\formfind\tna\vertical.md)
+            * [xycfdm](API Reference\compas_torch_fofin\formfind\tna\xycfdm.md)
+    * funcs
+        * [angles](API Reference\compas_torch_fofin\funcs\angles.md)
+        * gmp
+            * [area](API Reference\compas_torch_fofin\funcs\gmp\area.md)
+            * [core](API Reference\compas_torch_fofin\funcs\gmp\core.md)
+            * [laplacian](API Reference\compas_torch_fofin\funcs\gmp\laplacian.md)
+            * [links](API Reference\compas_torch_fofin\funcs\gmp\links.md)
+            * [normals](API Reference\compas_torch_fofin\funcs\gmp\normals.md)
+            * [point](API Reference\compas_torch_fofin\funcs\gmp\point.md)
+        * [interp2d](API Reference\compas_torch_fofin\funcs\interp2d.md)
+        * [losses](API Reference\compas_torch_fofin\funcs\losses.md)
+        * [LPE](API Reference\compas_torch_fofin\funcs\LPE.md)
+        * [pointwise](API Reference\compas_torch_fofin\funcs\pointwise.md)
+        * [trigonometric](API Reference\compas_torch_fofin\funcs\trigonometric.md)
+    * gnn
+        * conv
+            * [cwmeshconv](API Reference\compas_torch_fofin\gnn\conv\cwmeshconv.md)
+        * models
+            * [cwmeshnet](API Reference\compas_torch_fofin\gnn\models\cwmeshnet.md)
+        * [readout](API Reference\compas_torch_fofin\gnn\readout.md)
+        * [utils](API Reference\compas_torch_fofin\gnn\utils.md)
+    * [grad](API Reference\compas_torch_fofin\grad.md)
+    * [matrices](API Reference\compas_torch_fofin\matrices.md)
+    * optim
+        * [data](API Reference\compas_torch_fofin\optim\data.md)
+        * funcs
+            * [bestfit](API Reference\compas_torch_fofin\optim\funcs\bestfit.md)
+            * [force](API Reference\compas_torch_fofin\optim\funcs\force.md)
+            * [loadpath](API Reference\compas_torch_fofin\optim\funcs\loadpath.md)
+        * scipy
+            * [opter](API Reference\compas_torch_fofin\optim\scipy\opter.md)
+            * [setup](API Reference\compas_torch_fofin\optim\scipy\setup.md)
+            * [wrapper](API Reference\compas_torch_fofin\optim\scipy\wrapper.md)
+    * [test_mkdocs](API Reference\compas_torch_fofin\test_mkdocs.md)
+    * utils
+        * [dgl_tools](API Reference\compas_torch_fofin\utils\dgl_tools.md)
+        * [funcio](API Reference\compas_torch_fofin\utils\funcio.md)
+        * [itertools](API Reference\compas_torch_fofin\utils\itertools.md)
+        * [model_tools](API Reference\compas_torch_fofin\utils\model_tools.md)
+        * [tensor_tools](API Reference\compas_torch_fofin\utils\tensor_tools.md)
+        * [types](API Reference\compas_torch_fofin\utils\types.md)
